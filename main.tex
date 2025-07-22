@@ -1,0 +1,174 @@
+%-------------------------
+% Lena W. Song Resume (LaTeX version to match Google Docs)
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={\tiny\textbullet}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Lena Song} \\ \vspace{1pt}
+    \small (703) 949-1622 $|$ 
+    \href{mailto:lena_song@brown.edu}{lena\_song@brown.edu} $|$
+    \href{https://www.linkedin.com/in/lena-w-song/}{linkedin.com/in/lena-w-song} $|$
+    \href{https://github.com/lenawsong}{github.com/lenawsong}
+\end{center}
+\vspace{-8pt}
+
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Brown University}{\textbf{Expected May 2027}}
+      {B.S. in Computer Science--Economics, B.A. in Visual Art}{Providence, RI}
+    \resumeItemListStart
+      \resumeItem{\textbf{GPA: 3.8/4.0} $|$ SAT Math: 790}
+      \resumeItem{Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Software Engineering, Linear Algebra, Statistical Inference, Differential Equations, Probabilistic Models, Investments II, Macroeconomics}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{\textbf{Work Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lead Software Engineer Intern}{\textbf{May 2025 -- Present}}
+      {MHISystems}{Loudoun, VA}
+    \resumeItemListStart
+      \resumeItem{Spearheaded the development of a \textbf{full-stack} web application using \textbf{Flask}, \textbf{Vue.js}, \textbf{.NET Core}, and \textbf{SQL} to help Loudoun physicians generate and streamline psychiatric diagnostic reports for \textbf{200+ patients}}
+      \resumeItem{Integrated \textbf{OpenAI LLMs} to deliver personalized diagnostic evaluations, \textbf{reducing documentation} time by \textbf{70\%}}
+      \resumeItem{Designed responsive interface for dynamic report editing, PDF exports, and physician-AI chat functionality}
+      \resumeItem{Collaborated with clinical staff and \textbf{UI/UX designers} to refine features and improve treatment workflow systems}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer Intern}{\textbf{May 2024 -- Aug 2024}}
+      {SilTek Inc.--AccessEVA.ai}{Sterling, VA}
+    \resumeItemListStart
+      \resumeItem{Engineered a \textbf{Vue.js} and \textbf{Python} full-stack application enabling D.C. attorneys to \textbf{reduce legislative processing time by 30\%}. Improved legal document clarity via \textbf{OpenAI API-integrated} search, summaries, and data retrieval}
+      \resumeItem{Facilitated a retrieval-augmented generation \textbf{(RAG)} system using vectorized legal documents in \textbf{Azure Cosmos DB}, enabling natural language queries across \textbf{1,000+} user-uploaded files and project-specific chat histories}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{\textbf{Incoming Sept 2025}}
+      {Brown Department of Economics}{Providence, RI}
+    \resumeItemListStart
+      \resumeItem{Leads weekly office hours for \textbf{20 students}, clarifying complex quantitative problems and \textbf{macroeconomic} principles}
+      \resumeItem{Grades \textbf{50 homework submissions} weekly, providing constructive feedback to accelerate student learning}
+      \resumeItem{Mentors students about \textbf{10--15 key conceptual questions} in hybrid exam reviews to reinforce understanding}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Business Development Intern}{\textbf{June 2024 -- Aug 2024}}
+      {NOVA Business Center}{Tysons, VA}
+    \resumeItemListStart
+      \resumeItem{Researched wireless access gaps across 5 underserved D.C. neighborhoods to support Verizon's expansion strategy}
+      \resumeItem{Surpassed monthly sales goals by \textbf{30\%} through community outreach and consultant-led training initiatives}
+      \resumeItem{Facilitated \textbf{100+ new customer acquisitions}, expanding affordable wireless coverage in low-income communities}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{\textbf{Projects}}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\href{https://lenawsong.netlify.app/}{\textcolor{blue}{\textbf{Portfolio Website}}} $|$ \textit{React.js, Framer Motion, JavaScript, HTML/CSS, Sanity}}{\textbf{June 2025 - Present}}
+      \resumeItemListStart
+        \resumeItem{Designed and deployed full-stack \textbf{portfolio} to showcase \textbf{5+ software projects} and creative work}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\href{https://lenawsong.neocities.org/mhisystems}{\textcolor{blue}{\textbf{MHI Reports}}} $|$ \textit{Flask, Vue.js, .NET Core, Python, SQL (SSMS)}}{\textbf{June 2025 - Present}}
+      \resumeItemListStart
+        \resumeItem{Engineered a \textbf{full-stack clinical tool} for physicians to generate \textbf{LLM-assisted evaluations} for \textbf{200+ patients}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+\section{\textbf{Leadership Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Webmaster \& Finance Lead}{\textbf{Jan 2024 -- Present}}
+      {Brown Motion Pictures}{Providence, RI}
+    \resumeItemListStart
+      \resumeItem{Maintains organization website and manages \textbf{\$50,000 bi-annual budget} for Brown's largest student-run film group}
+      \resumeItem{Processes reimbursements and tracks expenses for \textbf{100+ cast and crew members} across multiple productions}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Publicity Coordinator}{\textbf{Jan 2024 -- Present}}
+      {Brown Original Series}{Providence, RI}
+    \resumeItemListStart
+      \resumeItem{Led campus-wide campaigns that raised \textbf{\$8,000+} and grew crew and cast membership to \textbf{150+ students}}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{\textbf{Technical Skills}}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Programming Languages:} Java, Python, JavaScript, C\#, SQL (T-SQL), HTML/CSS \\
+    \textbf{Frameworks and Libraries:} React.js, Vue.js, .NET Core, Flask, Node.js, Framer Motion, Sanity \\
+    \textbf{Tools and Platforms:} GitHub, VS Code, Visual Studio, SSMS, IntelliJ, AWS, Azure Cosmos DB, Bootstrap, Adobe CS \\
+    \textbf{Languages:} English (native), Mandarin (fluent), Spanish (beginner), French (beginner)
+  }}
+\end{itemize}
+
+\end{document}
